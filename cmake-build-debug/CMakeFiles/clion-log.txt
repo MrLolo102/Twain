@@ -1,0 +1,71 @@
+/snap/clion/126/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/adminhp/Desktop/Vmodev/twain-rabbitmq-client
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning at CMakeLists.txt:25 (find_package):
+  By not providing "Findcpprestsdk.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "cpprestsdk", but CMake did not find one.
+
+  Could not find a package configuration file provided by "cpprestsdk" with
+  any of the following names:
+
+    cpprestsdkConfig.cmake
+    cpprestsdk-config.cmake
+
+  Add the installation prefix of "cpprestsdk" to CMAKE_PREFIX_PATH or set
+  "cpprestsdk_DIR" to a directory containing one of the above files.  If
+  "cpprestsdk" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Found C inline keyword: inline
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - found
+-- Looking for socket
+-- Looking for socket - found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for posix_spawnp in rt
+-- Looking for posix_spawnp in rt - found
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found suitable version "1.1.1f", minimum required is "0.9.8")  
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Performing Test HAVE_GNU90
+-- Performing Test HAVE_GNU90 - Success
+-- Could NOT find POPT (missing: POPT_INCLUDE_DIR POPT_LIBRARY) (found version "")
+CMake Warning (dev) at /snap/clion/126/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (XMLTO) does
+  not match the name of the calling package (XmlTo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  rabbitmq-c/cmake/FindXmlTo.cmake:13 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  rabbitmq-c/CMakeLists.txt:253 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find XMLTO (missing: XMLTO_EXECUTABLE) 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Building rabbitmq as a shared library - yes
+-- Building rabbitmq as a static library - yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug

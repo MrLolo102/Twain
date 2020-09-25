@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="librabbitmq"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\rabbitmq-c\;CMake Files\rabbitmq-c\librabbitmq\;CMake Files\rabbitmq-c\cmake\;CMake Files\rabbitmq-c\examples\;CMake Files\rabbitmq-c\tests\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\rabbitmq-c\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rabbitmq">
+				<Option output="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/librabbitmq.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWITH_SSL=1"/>
+					<Add option="-DAMQP_BUILD"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/unix"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 rabbitmq"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rabbitmq/fast">
+				<Option output="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/librabbitmq.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWITH_SSL=1"/>
+					<Add option="-DAMQP_BUILD"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/unix"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 rabbitmq/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rabbitmq-static">
+				<Option output="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/librabbitmq.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DAMQP_STATIC"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWITH_SSL=1"/>
+					<Add option="-DAMQP_BUILD"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/unix"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 rabbitmq-static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rabbitmq-static/fast">
+				<Option output="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/librabbitmq.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DAMQP_STATIC"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWITH_SSL=1"/>
+					<Add option="-DAMQP_BUILD"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq"/>
+					<Add directory="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/unix"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 rabbitmq-static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/librabbitmq/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_api.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_connection.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_consumer.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_framing.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_framing.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_mem.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl_bio.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl_bio.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl_hostname_validation.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl_hostname_validation.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_private.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_socket.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_socket.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_ssl_socket.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_table.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_table.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_tcp_socket.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_tcp_socket.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_time.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_time.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_url.c">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/unix/threads.h">
+			<Option target="rabbitmq"/>
+			<Option target="rabbitmq-static"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rabbitmq-c\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq.pc.in">
+			<Option virtualFolder="CMake Files\rabbitmq-c\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rabbitmq-c\librabbitmq\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/cmake/CMakePushCheckState.cmake">
+			<Option virtualFolder="CMake Files\rabbitmq-c\cmake\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/cmake/FindPOPT.cmake">
+			<Option virtualFolder="CMake Files\rabbitmq-c\cmake\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/cmake/FindXmlTo.cmake">
+			<Option virtualFolder="CMake Files\rabbitmq-c\cmake\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\rabbitmq-c\cmake\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/cmake/TestCInline.cmake">
+			<Option virtualFolder="CMake Files\rabbitmq-c\cmake\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/cmake/config.h.in">
+			<Option virtualFolder="CMake Files\rabbitmq-c\cmake\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rabbitmq-c\examples\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rabbitmq-c\tests\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/tests/test_tables.expected">
+			<Option virtualFolder="CMake Files\rabbitmq-c\tests\"/>
+		</Unit>
+		<Unit filename="/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/cmake-build-debug/rabbitmq-c/CMakeTestCInline.c">
+			<Option virtualFolder="CMake Files\cmake-build-debug\rabbitmq-c\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
