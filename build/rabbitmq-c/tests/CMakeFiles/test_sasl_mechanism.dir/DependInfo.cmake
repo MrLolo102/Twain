@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/tests/test_sasl_mechanism.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/tests/CMakeFiles/test_sasl_mechanism.dir/test_sasl_mechanism.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/tests/test_sasl_mechanism.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/tests/CMakeFiles/test_sasl_mechanism.dir/test_sasl_mechanism.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
@@ -23,7 +23,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq-static.dir/DependInfo.cmake"
+  "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq-static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

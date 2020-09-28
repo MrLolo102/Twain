@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_api.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_api.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_connection.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_connection.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_consumer.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_consumer.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_framing.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_framing.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_hostcheck.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_mem.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_mem.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_openssl.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl_bio.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_openssl_bio.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl_hostname_validation.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_openssl_hostname_validation.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_socket.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_socket.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_table.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_table.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_tcp_socket.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_tcp_socket.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_time.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_time.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_url.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_url.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_api.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_api.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_connection.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_connection.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_consumer.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_consumer.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_framing.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_framing.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_hostcheck.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_mem.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_mem.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_openssl.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl_bio.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_openssl_bio.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_openssl_hostname_validation.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_openssl_hostname_validation.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_socket.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_socket.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_table.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_table.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_tcp_socket.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_tcp_socket.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_time.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_time.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_url.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/CMakeFiles/rabbitmq.dir/amqp_url.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
@@ -34,12 +34,13 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "rabbitmq-c/librabbitmq"
   "../rabbitmq-c/librabbitmq"
   "../rabbitmq-c/librabbitmq/unix"
+  "/usr/local/opt/openssl/include"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/librabbitmq.so" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/librabbitmq.so.4.4.1"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/librabbitmq.so.4" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/librabbitmq.so.4.4.1"
+  "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/librabbitmq.4.dylib" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/librabbitmq.4.4.1.dylib"
+  "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/librabbitmq.dylib" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/librabbitmq.4.4.1.dylib"
   )
 
 

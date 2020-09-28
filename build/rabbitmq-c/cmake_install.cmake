@@ -1,4 +1,4 @@
-# Install script for directory: /home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c
+# Install script for directory: /Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,25 +27,25 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/pkgconfig" TYPE FILE FILES "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/cmake_install.cmake")
-  include("/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/examples/cmake_install.cmake")
-  include("/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/tests/cmake_install.cmake")
+  include("/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/librabbitmq/cmake_install.cmake")
+  include("/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/examples/cmake_install.cmake")
+  include("/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/tests/cmake_install.cmake")
 
 endif()
 

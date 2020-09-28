@@ -56,7 +56,7 @@ cstdarg
 string
 -
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/auto_download_and_unzip.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/auto_download_and_unzip.cpp
 cstdlib
 -
 iostream
@@ -68,23 +68,23 @@ vector
 sstream
 -
 auto_download_and_unzip.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/auto_download_and_unzip.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/auto_download_and_unzip.h
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen.cpp
 cstdint
 -
 twain_amqp_listen.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen.h
 utils.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/utils.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/utils.h
 twain_amqp_listen_callback.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen_callback.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen_callback.h
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_message_handle.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_message_handle.cpp
 iostream
 -
 twain_message_handle.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_message_handle.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_message_handle.h
 chrono
 -
 string
@@ -92,13 +92,13 @@ string
 cpprest/http_client.h
 -
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_service/src/twain_service.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain_service/src/twain_service.cpp
 iostream
 -
 twain_amqp_listen.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_service/src/twain_amqp_listen.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_service/src/twain_amqp_listen.h
 twain_message_handle.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_service/src/twain_message_handle.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_service/src/twain_message_handle.h
 twain_service_config.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_service/src/twain_service_config.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_service/src/twain_service_config.h
 

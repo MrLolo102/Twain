@@ -13,10 +13,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/rabbitmq.dir/amqp_tcp_socket.c.o"
   "CMakeFiles/rabbitmq.dir/amqp_time.c.o"
   "CMakeFiles/rabbitmq.dir/amqp_url.c.o"
+  "librabbitmq.4.4.1.dylib"
+  "librabbitmq.4.dylib"
+  "librabbitmq.dylib"
   "librabbitmq.pdb"
-  "librabbitmq.so"
-  "librabbitmq.so.4"
-  "librabbitmq.so.4.4.1"
 )
 
 # Per-language clean rules from dependency scanning.

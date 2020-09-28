@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../rabbitmq-c/librabbitmq/amqp.h
+sys/types.h
+-
+stddef.h
+-
+stdint.h
+-
+amqp_framing.h
+-
+
+../rabbitmq-c/librabbitmq/amqp_framing.h
+amqp.h
+-
+
+/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/tests/test_tables.c
+errno.h
+-
+stdarg.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+inttypes.h
+-
+amqp.h
+-
+math.h
+-
+

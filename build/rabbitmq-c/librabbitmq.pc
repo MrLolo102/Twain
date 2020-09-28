@@ -1,6 +1,6 @@
 prefix=/usr/local
 exec_prefix=${prefix}
-libdir=${exec_prefix}/lib/x86_64-linux-gnu
+libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 
 Name: rabbitmq-c
@@ -9,5 +9,5 @@ Version: 0.11.0
 URL: https://github.com/alanxz/rabbitmq-c
 Requires.private: openssl
 Libs: -L${libdir} -lrabbitmq
-Libs.private: rt;-pthread
+Libs.private: 
 CFlags: -I${includedir}

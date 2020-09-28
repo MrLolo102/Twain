@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/tests/CMakeFiles/test_hostcheck.dir/__/librabbitmq/amqp_hostcheck.c.o"
-  "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/tests/test_hostcheck.c" "/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/build/rabbitmq-c/tests/CMakeFiles/test_hostcheck.dir/test_hostcheck.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/tests/CMakeFiles/test_hostcheck.dir/__/librabbitmq/amqp_hostcheck.c.o"
+  "/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/tests/test_hostcheck.c" "/Users/longtran/VMO/twain-rabbitmq-client/build/rabbitmq-c/tests/CMakeFiles/test_hostcheck.dir/test_hostcheck.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

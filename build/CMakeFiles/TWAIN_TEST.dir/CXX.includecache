@@ -52,7 +52,7 @@ string
 cstdarg
 -
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/test/src/test_service.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/test/src/test_service.cpp
 iostream
 -
 cpprest/http_msg.h
@@ -60,9 +60,9 @@ cpprest/http_msg.h
 cpprest/http_client.h
 -
 twain_message_handle.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/test/src/twain_message_handle.h
+/Users/longtran/VMO/twain-rabbitmq-client/test/src/twain_message_handle.h
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/auto_download_and_unzip.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/auto_download_and_unzip.cpp
 cstdlib
 -
 iostream
@@ -74,23 +74,23 @@ vector
 sstream
 -
 auto_download_and_unzip.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/auto_download_and_unzip.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/auto_download_and_unzip.h
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen.cpp
 cstdint
 -
 twain_amqp_listen.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen.h
 utils.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/utils.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/utils.h
 twain_amqp_listen_callback.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen_callback.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_amqp_listen_callback.h
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_message_handle.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_message_handle.cpp
 iostream
 -
 twain_message_handle.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_message_handle.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rabbitmq_service/src/twain_message_handle.h
 chrono
 -
 string

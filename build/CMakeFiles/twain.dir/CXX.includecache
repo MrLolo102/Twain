@@ -24,37 +24,39 @@ string
 string
 -
 cpprest/http_client.h
-../twain_rest_service/include/cpprest/http_client.h
+-
 cpprest/filestream.h
-../twain_rest_service/include/cpprest/filestream.h
+-
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain/src/main.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain/src/main.cpp
 iostream
 -
 cpprest/http_client.h
 -
 twain_service_api.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain/src/twain_service_api.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain/src/twain_service_api.h
 twain_command.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain/src/twain_command.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain/src/twain_command.h
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain/src/twain_command.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain/src/twain_command.cpp
+fstream
+-
+sstream
+-
 stdexcept
 -
 twain_command.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain/src/twain_command.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain/src/twain_command.h
 string_utils.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain/src/string_utils.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain/src/string_utils.h
 iostream
 -
-fstream
--
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rest_service/src/twain_service_api.cpp
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rest_service/src/twain_service_api.cpp
 twain_config.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rest_service/src/twain_config.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rest_service/src/twain_config.h
 iostream
 -
 twain_service_api.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/twain_rest_service/src/twain_service_api.h
+/Users/longtran/VMO/twain-rabbitmq-client/twain_rest_service/src/twain_service_api.h
 

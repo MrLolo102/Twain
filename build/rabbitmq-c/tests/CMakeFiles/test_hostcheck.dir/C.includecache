@@ -8,19 +8,19 @@
 
 ../rabbitmq-c/librabbitmq/amqp_hostcheck.h
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.c
+/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.c
 amqp_hostcheck.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.h
+/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.h
 string.h
 -
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.h
+/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/librabbitmq/amqp_hostcheck.h
 
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/tests/test_hostcheck.c
+/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/tests/test_hostcheck.c
 config.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/tests/config.h
+/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/tests/config.h
 amqp_hostcheck.h
-/home/adminhp/Desktop/Vmodev/twain-rabbitmq-client/rabbitmq-c/tests/amqp_hostcheck.h
+/Users/longtran/VMO/twain-rabbitmq-client/rabbitmq-c/tests/amqp_hostcheck.h
 stdio.h
 -
 stdlib.h

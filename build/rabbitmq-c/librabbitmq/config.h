@@ -9,6 +9,6 @@
 
 #define HAVE_POLL
 
-#define AMQ_PLATFORM "Linux"
+#define AMQ_PLATFORM "Darwin"
 
 #endif /* CONFIG_H */
